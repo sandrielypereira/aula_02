@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:cornflowerblue
+}
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    border-radius: 100px;
+    margin-bottom: 40px;
+}
