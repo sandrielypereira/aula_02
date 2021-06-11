@@ -8,18 +8,20 @@
     <title>Document</title>
 </head>
 <body>
-   <div class=" w-100  d-flex justify-content-center align-items-center h-100vh">
-        <div class="card w-50 d-flex justify-content-center align-items-center" >
+   <div class="container w-100 d-flex justify-content-center align-items-center vh-100">
+        <div class="card d-flex align-items-center p-5">
             <div class="circulo"></div>
-            <div class="email">
-                <input type="text" placeholder="email">
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="text" class="form-control">
             </div>
-            <div class="senha">
-                <input type="text" placeholder="senha">
+            <div class="mb-3">
+                <label class="form-label">Senha</label>
+                <input type="text" class="form-control">
             </div>
-            <div class="d-grid gap-2 d-md-block d-flex flex-column w-100" >
-                <button class="btn btn-primary" type="button w-100"  >login</button>
-                <button class="limpar btn btn-primary" type="button">limpar</button>
+            <div class="w-100">
+                <button class="btn btn-primary w-100 mb-2">login</button>
+                <button class="btn btn-secondary w-100">limpar</button>
             </div>
         </div>
    </div>
